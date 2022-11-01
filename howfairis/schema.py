@@ -8,7 +8,8 @@ schema = {
     Optional("skip_license_checks_reason"): Any(str, None),
     Optional("skip_registry_checks_reason"): Any(str, None),
     Optional("skip_citation_checks_reason"): Any(str, None),
-    Optional("skip_checklist_checks_reason"): Any(str, None),
+    # Optional("skip_checklist_checks_reason"): Any(str, None),
+    skip_checklist_checks_reason: "I'm using the Codacy dashboard to guide my development"
     Optional("ignore_commented_badges"): Any(bool, None)
 }
 
